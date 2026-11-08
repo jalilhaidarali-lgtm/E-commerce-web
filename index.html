@@ -66,9 +66,9 @@
   <script>
     // Perbarui data toko dan tautan ini sebelum halaman dipublikasikan.
     const WHATSAPP_NUMBER = "6282138419250";
-    const EMAIL_TOKO = ""; // Contoh format: toko@example.com
-    const INSTAGRAM_URL = ""; // Tempel URL profil Instagram toko
-    const DISCORD_URL = ""; // Tempel tautan invite server Discord
+    const EMAIL_TOKO = "mr.mobs10@gmail.com"; // Contoh format: toko@example.com
+    const INSTAGRAM_URL = "@drkrvn98"; // Tempel URL profil Instagram toko
+    const DISCORD_URL = "@htcool"; // Tempel tautan invite server Discord
     const cart = [];
     const formatRupiah = amount => new Intl.NumberFormat("id-ID", {style:"currency",currency:"IDR",maximumFractionDigits:0}).format(amount);
     function addToCart(name,price){const item=cart.find(product=>product.name===name);if(item)item.quantity+=1;else cart.push({name,price,quantity:1});renderCart();document.getElementById("keranjang").scrollIntoView({behavior:"smooth",block:"center"})}
